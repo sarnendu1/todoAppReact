@@ -21,7 +21,7 @@ const Todo = () => {
   // add the items fucnction
   const addItem = () => {
     if (!inputdata) {
-      alert("plz fill the data");
+      alert("Plz fill the data");
     } else if (inputdata && toggleButton) {
       setItems(
         items.map((curElem) => {
